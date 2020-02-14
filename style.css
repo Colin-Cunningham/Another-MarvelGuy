@@ -1,3 +1,4 @@
+
 body{
     background-color: Black;
     padding: .5rem;
@@ -11,9 +12,22 @@ body{
    background-repeat: no-repeat;
    padding: 4rem;
 }
-#menu{
 
+.info{
+    font-family: 'Bowlby One SC', cursive;
+    color: #002081;
+}
+.cool{
+    font-family: 'Russo One', sans-serif;
+    color: #42444d;
+    text-decoration: steelblue;
+}
 
+.tagline{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-decoration: white;
+    font-size: 1.8rem;
 }
 #image{
     margin: 0 auto;
@@ -75,8 +89,82 @@ body{
   }
 
  #twitter{
-     border-style: double;
+     border-top-style: double;
+     border-right-style: double;
      border-width: .7rem;
      border-color: #112563;
  }
-  /* media @ 485px */
+
+
+
+  @media only screen and (max-width: 485px) {
+    body{
+        background-color: white;
+    }
+    
+    #raised{
+     
+        text-align: center;
+        background-color: rgba(243, 243, 243, 0.877);
+        width: 300px;
+        padding: 20px;
+    }
+    #imageHolder{
+        background-image: url("Images/top-background.jpg");
+         background-color: white;
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-left: 1rem ;
+     }
+
+     #currentMovie{
+        background-color: rgb(0, 0, 0); 
+    }
+
+    /* Footer */
+.footer {
+    border-radius: 1px;
+    background-image: url("Images/smallCap.jpg");
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 4rem;
+
+  }
+  .tagline{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 1.8rem;
+}
+
+  #video{
+     width: 85%; 
+ }
+ #twitter{
+    border-style: none;
+    border-width: none;
+    border-color: none;
+}
+ 
+  }
+
+  @media only screen and (max-height: 485px) {
+
+    #currentMovie{
+        padding-top: 1rem;
+
+    }
+    #video{
+        width: 60%; 
+        height: 15rem;
+    }
+
+
+    }
