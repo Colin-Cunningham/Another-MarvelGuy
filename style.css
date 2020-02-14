@@ -148,6 +148,11 @@ body{
      width: 85%; 
      height: 20rem;
  }
+ #button{
+     padding: 0;
+     margin: 0 auto;
+     height: 10px;
+ }
  #twitter{
     border-style: none;
     border-width: none;
