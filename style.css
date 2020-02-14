@@ -146,6 +146,7 @@ body{
 
   #video{
      width: 85%; 
+     height: 20rem;
  }
  #twitter{
     border-style: none;
